@@ -15,10 +15,12 @@ public class FalseOddPattern {
                 if (i < n / 2) { // top half
                     leading = i;
                     middle = n - 2 * i - 2;
+                    System.out.println("Top leading : "+leading+" middle : "+middle);
                 } else { // bottom half (mirror)
                     int j = n - i - 1;
                     leading = j;
                     middle = n - 2 * j - 2;
+                    System.out.println("Bottom leading : "+leading+" middle : "+middle);
                 }
 
                 // Print leading spaces
