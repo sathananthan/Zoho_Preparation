@@ -30,7 +30,7 @@ public class PhoneDigits {
     }
 
     public static void main(String[] args) {
-        String digits = "234";
+        String digits = "23";
         generateCombinations(digits, 0, "");
     }
 }
