@@ -43,13 +43,13 @@ public class WordBoggle {
                 {'G','I','Z'},
                 {'U','E','K'},
                 {'Q','S','E'},
-                {'F','O','R'},
         };
 
         Set<String> dict = new HashSet<>();
         dict.add("GEEKS");
         dict.add("QUIZ");
         dict.add("FOR");
+        dict.add("KKI");
 
         findWords(board, dict);
     }

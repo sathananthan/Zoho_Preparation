@@ -1,4 +1,4 @@
-class LargestNumberKSwaps {
+class LargestNumberKSwaps {      //easy
 
     static String max;
 
@@ -40,7 +40,7 @@ class LargestNumberKSwaps {
 
     public static void main(String[] args) {
 
-        String str = "129814999";
+        String str = "1298";
         int k = 4;
 
         max = str;
